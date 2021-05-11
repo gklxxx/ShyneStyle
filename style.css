@@ -1,0 +1,308 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.856);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.295);
+}
+.btn-outline-white{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+}
+.btn-outline-white:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffc451;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed top center;
+    background-size: cover;
+    position: relative;
+}
+#hero:before{
+    content: "";
+    background:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#hero .container{
+    position: relative;
+    padding-top: 75px;
+}
+#hero h1{
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+#hero h2{
+    margin: 10px 0 0 0;
+    color: white;
+    font-size: 24px;
+}
+#hero .icon-box h3{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+#hero .icon-box h3 a{
+    color: white;
+}
+#hero .icon-box h3 a:hover{
+    color: #ffc451;
+}
+.icon-box{
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+}
+.icon-box:hover{
+    border-color:#ffc451 ;
+}
+.cta{
+    background:linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.8)), url(https://images.pexels.com/photos/581339/pexels-photo-581339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    padding: 80px 0;
+    color: white;
+}
+.cta h3{
+    font-weight: 700;
+    font-size: 28px;
+}
+.cta-btn{
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 1px;
+display: inline-block;
+padding: 8px 28px;
+border: 2px solid white;
+border-radius: 4px;
+color:white;
+}
+.cta-btn:hover{
+background:#ffc451;
+border-color: #ffc451;
+color: #151515;
+transition: 0.3s;
+    }
+.cta-btn a{
+    text-decoration: none;
+}
+.carousel-indicators{
+    bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+.team{
+    padding: 60px;
+}
+.team .member{
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.team .member .member-img{
+    position: relative;
+    overflow: hidden;
+}
+.team .member .social{
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+.team .member .social a{
+    transition: color 0.3s;
+    color: #151515;
+    padding-top: 7px;
+    margin: 0 3px;
+    border-radius: 4px;
+    height: 36px;
+    width: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    align-items: center;
+}
+.team .member .social a:hover{
+    background: #ffc451;
+}
+.team .member .member-info{
+    padding: 15px 25px;
+}
+.team .member .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.team .member .member-info span{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.team .member .member-info p{
+    font-style: italic;
+    line-height: 26px;
+    color: #777777;
+}
+.team .member:hover .social{
+    opacity: 1;
+    bottom: 15px;
+}
+.services .icon-box{
+    border: 1px solid #383838;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 20px;
+}
+.services .icon-box .icon{
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+    background: #ffc451;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.services .icon-box h4{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-box p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-box:hover{
+    border-color: white;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.5);
+    transform:translateY(-10px);
+}
+.col-lg-4{
+    padding-bottom: 20px;
+}
+.contacts .info .info-icon{
+    background: #ffc451;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+    float: left;
+}
+.contacts .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.contacts .info p{
+    padding: 0 0 0 60px;
+    font-size: 14px;
+}
+.form-control{
+    border-color: black;
+}
+.btn-dark:hover{
+   background-color: white;
+   color: black;
+   border-color: black;
+   transition: 0.3s;
+}
+.footer-top{
+    background: #151515;
+    color: white;
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+    margin-top: 35px;
+    height: 120;
+}
+.footer-links{
+width: 261px;
+}
+.footer-top .footer-info{
+    margin-bottom: 30px;
+}
+.footer-top .footer-info h3{
+    font-size: 30px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.footer-top .footer-info p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.footer-top .social-links a{
+    background: #292929;
+    margin-right: 4px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-top .social-links a:hover{
+    background: #ffc451;
+    transition: 0.3s;
+}
+.footer-top .footer-links ul{
+    list-style: none;
+}
+.footer-top .footer-links a{
+    color: white;
+    text-decoration: none;
+}
+.footer-top .footer-links a:hover{
+    text-decoration: underline;
+    color:  rgba(255, 255, 255, 0.295);
+    transition: 0.2s;
+}
+#btn__form{
+    border-radius: 4px;
+    background: white;
+    color: black;
+}
+#btn__form:hover{
+    background: #151515;
+    color:white;
+    transition: 0.3s;
+}
+.footer-top .footer-links svg{
+    margin-left: 5px;
+}
+.footer-top .social-links svg{
+    color: white;
+    margin-top: 5px;
+}
+.footer-top .social-links svg:hover{
+    color: rgba(0, 0, 255, 0.664);
+}
+#carousel__item{
+    height: 100%;
+}
